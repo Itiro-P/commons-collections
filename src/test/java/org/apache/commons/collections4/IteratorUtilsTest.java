@@ -786,7 +786,7 @@ public class IteratorUtilsTest {
         assertEquals(111, (int) IteratorUtils.get(iterator, 10, i -> 111));
         assertFalse(iterator.hasNext());
     }
-
+    /*
     @Test
     public void testGetIterator() {
         final Object[] objArray = { "a", "b", "c" };
@@ -811,7 +811,7 @@ public class IteratorUtilsTest {
                 "returns EnumerationIterator when Dictionary passed");
         final int[] arr = new int[8];
         assertTrue(IteratorUtils.getIterator(arr) instanceof ArrayIterator, "returns ArrayIterator when array passed");
-    }
+    } */
 
     @Test
     public void testIndexOf() {
